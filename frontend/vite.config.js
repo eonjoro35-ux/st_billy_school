@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "/ST.Billy/",
+    base: "/st_billy_school/",
     plugins: [react()],
     resolve: {
         alias: {
