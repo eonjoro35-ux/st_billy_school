@@ -86,7 +86,7 @@
     z-index: -1;
     pointer-events: none;
     background: linear-gradient(rgb(var(--surface) / 0.42), rgb(var(--surface) / 0.42)),
-      url("/ST.Billy/images/classroom.jpg") center / cover;
+      url("/st_billy_school/images/classroom.jpg") center / cover;
     opacity: 0.78;
   }
 
