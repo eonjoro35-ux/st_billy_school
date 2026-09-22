@@ -46,8 +46,8 @@ export default function GalleryGrid() {
             key={cat.value}
             onClick={() => setActive(cat.value)}
             className={`px-4 py-2 rounded-full text-sm font-medium border transition-colors ${active === cat.value
-                ? "bg-forest-700 text-paper border-forest-700"
-                : "bg-paper text-ink/70 border-line hover:border-forest-400"
+              ? "bg-forest-700 text-paper border-forest-700"
+              : "bg-paper text-ink/70 border-line hover:border-forest-400"
               }`}
           >
             {cat.label}
